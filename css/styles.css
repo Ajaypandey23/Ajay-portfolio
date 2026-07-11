@@ -22,7 +22,7 @@ html{scroll-behavior:smooth;}
 body{
   font-family:'Inter', sans-serif;
   color:var(--navy);
-  background:var(--white);
+  background:#0f172a;
   line-height:1.6;
   -webkit-font-smoothing:antialiased;
   overflow-x:hidden;
