@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ajay Pandey — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <a class="logo" href="#home">Ajay Pandey</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section container">
+        <div class="hero-content">
+          <h1 class="reveal">Ajay Pandey</h1>
+          <p class="subtitle reveal">Computer Science Engineering Student | Full Stack Developer | Web Developer | AI Enthusiast</p>
+          <p class="intro reveal">I am a passionate Second year Computer Science Engineering student at ITER, Siksha 'O' Anusandhan University with a strong interest in Software Development, Full Stack Web Development, Artificial Intelligence, and modern backend technologies. I enjoy building real-world applications, learning new technologies, and solving complex problems through clean and efficient code. I am continuously improving my skills to become a professional software engineer and contribute to impactful technology solutions.</p>
+          <div class="hero-cta reveal">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-outline" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="card-inner">
+            <h3>Hi, I'm Ajay</h3>
+            <p>First-year CSE student building full-stack apps and exploring AI.</p>
+            <div class="card-links">
+              <a href="https://www.linkedin.com/in/ajay-pandey-aa7a893a0" target="_blank">LinkedIn</a>
+              <a href="https://github.com/Ajaypandey23" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>I have hands-on experience developing full-stack web applications and responsive websites. I enjoy working with frontend and backend technologies, designing REST APIs, and building scalable applications. I am passionate about continuous learning, problem solving, and collaborating on innovative software projects.</p>
+          </div>
+          <div class="about-stats reveal">
+            <div class="stat-card">
+              <h4>Education</h4>
+              <p>B.Tech — Computer Science & Engineering, ITER</p>
+            </div>
+            <div class="stat-card">
+              <h4>CGPA</h4>
+              <p>7.6 / 10</p>
+            </div>
+            <div class="stat-card">
+              <h4>Years</h4>
+              <p>2024 — 2028</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3>Programming Languages</h3>
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Frameworks & Libraries</h3>
+            <ul>
+              <li>Spring Boot</li>
+              <li>React.js</li>
+              <li>FastAPI</li>
+              <li>Django</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Web Technologies</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Tailwind CSS</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Databases & Tools</h3>
+            <ul>
+              <li>PostgreSQL</li>
+              <li>Git & GitHub</li>
+              <li>Postman</li>
+              <li>JWT</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Core Concepts</h3>
+            <ul>
+              <li>Data Structures & Algorithms</li>
+              <li>Object-Oriented Programming</li>
+              <li>Database Management Systems</li>
+              <li>Authentication & Authorization</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section container">
+        <h2 class="section-title reveal">Education</h2>
+        <div class="education-card reveal">
+          <h3>Bachelor of Technology (B.Tech) — Computer Science & Engineering</h3>
+          <p>ITER, Siksha 'O' Anusandhan University</p>
+          <p>CGPA: 7.6 / 10</p>
+          <p>2024 – 2028</p>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <h3>CampusConnect</h3>
+            <p class="project-sub">Student Event & Club Management System</p>
+            <div class="tech">Spring Boot · React.js · PostgreSQL · JWT · Tailwind CSS</div>
+            <p class="project-desc">A full-stack platform for managing student events, club memberships, and attendance, featuring secure JWT-based authentication, role-based access control, event registration, RSVP management, real-time attendance tracking, and a normalized PostgreSQL database for efficient and scalable data management.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>MedCare</h3>
+            <p class="project-sub">Clinic Appointment & Patient Record System</p>
+            <div class="tech">Django · React.js · PostgreSQL · JWT</div>
+            <p class="project-desc">A full-stack clinic management system for appointment scheduling, patient record management, and doctor dashboards, featuring JWT-based authentication, role-based access control, appointment booking, doctor availability management, patient history tracking, and a normalized PostgreSQL database for secure and efficient data management.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2 class="section-title reveal">Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-cards reveal">
+            <div class="contact-card">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M2 6.5C2 5.12 3.12 4 4.5 4h15c1.38 0 2.5 1.12 2.5 2.5v11c0 1.38-1.12 2.5-2.5 2.5h-15C3.12 20 2 18.88 2 17.5v-11z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <h4>Email</h4>
+              <p>pandeyajay2448@gmail.com</p>
+            </div>
+            <div class="contact-card">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M22 16.92V20a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2 4.18 2 2 0 0 1 4 2h3.09a2 2 0 0 1 2 1.72c.12 1.38.37 2.73.74 4a2 2 0 0 1-.45 2.11L8.91 11.09a16 16 0 0 0 6 6l1.26-1.26a2 2 0 0 1 2.11-.45c1.27.37 2.62.62 4 .74A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <h4>Phone</h4>
+              <p>+91 7561938868</p>
+            </div>
+            <div class="contact-card">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M12 2C6.48 2 2 6.48 2 12a9.99 9.99 0 0 0 4.1 8.1c.3.18.67.08.85-.23.2-.34.38-.7.53-1.07.16-.4.08-.86-.2-1.2C7 16.6 6.6 15.4 6.6 14a5.4 5.4 0 0 1 5.4-5.4 5.4 5.4 0 0 1 5.4 5.4c0 1.4-.4 2.6-1.7 3.5-.27.23-.36.66-.2 1.06.15.37.33.72.53 1.06.18.31.55.41.85.23A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <h4>Location</h4>
+              <p>Bhubaneswar, Odisha, India</p>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" id="name" required>
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" id="email" required>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" id="message" rows="6" required></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 Ajay Pandey — Designed with ❤️ using AI and Wix.</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/ajay-pandey-aa7a893a0" target="_blank">LinkedIn</a>
+          <a href="https://github.com/Ajaypandey23" target="_blank">GitHub</a>
+          <a href="mailto:pandeyajay2448@gmail.com">Email</a>
+          <a href="tel:+917561938868">Phone</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
