@@ -4,7 +4,7 @@
   const revealEls = document.querySelectorAll('.reveal')
   const io = new IntersectionObserver((entries)=>{
     entries.forEach(e=>{
-      if(e.isIntersecting) e.target.classList.add('in')
+      if(e.isIntersecting) e.target.classList.add('visible')
     })
   },{threshold:0.08})
   revealEls.forEach(el=>io.observe(el))
